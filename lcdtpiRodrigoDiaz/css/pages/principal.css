@@ -1,0 +1,116 @@
+.header-page {
+    color: blue;
+    background-color: rgb(0, 110, 255);
+    height: 50;
+
+}
+
+p {
+    float: left;
+    clear: none;
+
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+}
+
+.content {
+    flex-direction: row;
+}
+
+.dataimg {
+    float: right;
+}
+
+h2 {
+
+    background-color: white;
+}
+
+#botoninforme {
+    position: absolute;
+    top: 105px;
+    right: 10px;
+    display: inline-block;
+    padding: 5px 10px; 
+    font-size: 14px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #fff;
+    margin-right: 10px;
+
+}
+
+#botoninforme:hover {
+    background-color: #333;
+}
+
+#botoncontacto {
+    position: absolute;
+    top: 105px;
+    right: 110px;
+    display: inline-block;
+    padding: 5px 10px; 
+    font-size: 14px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #fff;
+    margin-right: 10px;
+
+}
+
+#botoncontacto:hover {
+    background-color: #333;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid transparent;
+    margin-right: 10px;
+  }
+  
+  .boton.rosa {
+    background-color: #FF69B4; 
+  }
+  
+  .boton.celeste {
+    background-color: #00BFFF; 
+    text-align: center;
+  }
+  
+  .icono {
+    margin-right: 5px; 
+  }
+  
+  .boton:hover {
+    background-color: #333;
+  }
+  
+.generales{
+    height: 35px;
+    width: 50px;
+}
+
+.paso{
+    height: 35px;
+    width: 50px;
+}
