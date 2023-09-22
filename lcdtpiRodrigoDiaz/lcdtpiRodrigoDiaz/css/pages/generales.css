@@ -1,0 +1,168 @@
+.header-page {
+    color: blue;
+    background-color: rgb(0, 110, 255);
+    height: 50;
+
+}
+
+#botoninicio {
+    position: absolute;
+    top: 105px;
+    right: 10px;
+    display: inline-block;
+    padding: 5px 10px; 
+    font-size: 14px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #fff;
+    margin-right: 10px;
+
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid transparent;
+    margin-right: 10px;
+  }
+ 
+.parrafocont{
+    display: flex;
+}
+
+.blue{
+    color: blue;
+    font-weight: bold;
+}
+
+#sec-contenido {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cuadro {
+    width: 30%;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cuadro img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.azul {
+    background-color: #007bff; 
+    color: white;
+    border-radius: 20px;
+}
+
+.rosa {
+    background-color: #ff69b4; 
+    color: white;
+    border-radius: 20px;
+}
+
+.violeta {
+    background-color: #8a2be2; 
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+
+.menu-principal {
+    list-style: none;
+    display: flex;
+    align-items: center; 
+    background-color: #000;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.menu-principal li {
+    color: white;
+    margin-right: 20px;
+}
+
+.menu-principal select {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+#boton-filtrar {
+    background-color: #28a745; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#boton-informes {
+    background-color: #343a40; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+#boton-filtrar img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+.estadisticas{
+    display: flex;
+}
+
+.cuadro {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+ 
+.barra-porcentaje {
+    width: 100%; 
+    background-color: #84baf3; 
+    height: 20px;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+
+.barra-progreso {
+    position: relative;
+    width: 58.08%; 
+    background-color: #0080ff;
+    height: 20px;
+    top: -20px; 
+    left: 0;
+    border: 1px solid #000; 
+}
+
+
+
